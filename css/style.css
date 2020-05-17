@@ -1,0 +1,209 @@
+body {
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+img {
+    border: 0;
+}
+.anchor {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 960px;
+}
+.anchor--half {
+    margin: 0;
+    width: 460px;
+}
+.anchor--left {
+    float: left;
+}
+.anchor--right {
+    float: right;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    width: 100%;
+}
+header {
+    background: #0c1521 url(../img/header-bg.png) no-repeat 50% 0;
+    height: 520px;
+    padding-top: 80px;
+}
+    .header-logo {
+        display: block;
+        height: 40px;
+    }
+    header h1 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: 300;
+        margin: 40px 0 20px;
+    }
+    header h1 span {
+        font-family: 'Playfair Display', serif;
+    }
+    header p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 20px 0 0;
+        width: 450px;
+    }
+    header p.buttons {
+        margin-top: 40px;
+        text-align: center;
+    }
+    header .button,
+    header .button:link,
+    header .button:visited {
+        background-color: rgba(0,0,0,0.25);
+        border-radius: 40px;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 40px;
+        padding: 0 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    header .button:hover,
+    header .button:active {
+        background-color: #000;
+    }
+    header .button--primary,
+    header .button--primary:link,
+    header .button--primary:visited {
+        background-color: #e54100;
+    }
+    header .button--primary:hover,
+    header .button--primary:active {
+        background-color: #ff4800;
+    }
+    header .button + .button {
+        margin-left: 20px;
+    }
+.section1 {
+    background-color: #27466e;
+    color: #fff;
+}
+    .section1 .aside1 {
+        background-color: #15253b;
+    }
+    .section1 .aside2 {
+        background-color: #27466e;
+    }
+
+    section aside {
+        float: left;
+        width: 50%;
+    }
+        section aside .anchor {
+            padding: 60px 20px;
+        }
+    section h2 {
+        font-size: 28px;
+        font-weight: 300;
+        margin: 0 0 40px;
+        text-align: center;
+    }
+    section p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 20px 0 0;
+    }
+    section p.space-more {
+        margin-top: 40px;
+    }
+    section ul {
+        list-style-type: none;
+        margin: 20px 0 0;
+        padding: 0;
+    }
+    section li {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin: 0 0 0 30px;
+    }
+    section li + li {
+        margin-top: 20px;
+    }
+    section li::before {
+        content: "\2713";
+        position: absolute;
+        margin-left: -30px;
+    }
+.section2 {
+    background-color: #fff;
+    color: #2c2c2c;
+}
+    .section2 h2,
+    .section2 p,
+    .section2 li {
+        font-weight: 400;
+    }
+    .section2 li span {
+        color: #666;
+        display: block;
+        font-style: italic;
+        font-weight: 300;
+
+    }
+    .section2 p.buttons {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .section2 .button {
+        background-color: #e54100;
+        border-radius: 60px;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 60px;
+        margin: 0 auto;
+        padding: 0 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .section2 .button:hover,
+    .section2 .button:active {
+        background-color: #ff4800;
+    }
+    .section2 .gallery-column {
+        float: left;
+        width: 50%;
+    }
+    .section2 .gallery-img {
+        display: block;
+        margin: 0 auto;
+        width: 210px;
+    }
+    .section2 .gallery-img + .gallery-img {
+        margin-top: 20px;
+    }
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 40px 0 80px;
+}
+    footer p {
+        float: left;
+        line-height: 18px;
+        margin: 0;
+    }
+    .footer-logo {
+        display: block;
+        float: right;
+        height: 30px;
+    }
