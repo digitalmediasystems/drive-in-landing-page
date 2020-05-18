@@ -29,8 +29,8 @@ img {
 }
 header {
     background: #0c1521 url(../img/header-bg.png) no-repeat 50% 0;
-    height: 520px;
-    padding-top: 80px;
+    height: 580px;
+    padding-top: 20px;
 }
     .header-logo {
         display: block;
