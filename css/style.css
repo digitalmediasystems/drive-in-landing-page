@@ -294,7 +294,7 @@ img {
         background-color: #fff;
         border: 1px solid #ccc;
         border-top: 2px solid #ff4800;
-        box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 5px #ccc;
         padding: 20px;
     }
         .section-card strong {
